@@ -62,7 +62,7 @@ export function getMoreChildren(
 }
 
 export function getPost(postId: string, sort: string) {
-	return ajax({ url: `/${postId}.json?sort=${sort}`, method: "GET" }).pipe(
+	return ajax({ url: `/comments/${postId}.json?sort=${sort}`, method: "GET" }).pipe(
 		map(res => res)
 	);
 }
