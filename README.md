@@ -11,8 +11,8 @@ _Contributions welcome! If you have any questions related to development, a bug 
 ## Dev Setup
 
 ```
-npm install
-npm start
+yarn
+yarn start
 ```
 
 Then load the `dist` folder as an unpacked extension in Chrome.
